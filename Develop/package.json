@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "inquirer": "^9.2.13",
+    "svg-canvas": "^1.0.2"
+  }
+}
