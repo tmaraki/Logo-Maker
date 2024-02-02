@@ -9,6 +9,15 @@ inquirer
     },
     {
         type:'input',
-        name:'color',
-        message:'Enter a color keyword:'
+        name:'text-color',
+        message:'Enter a color for the text:'
+    }, {
+        type:'checkbox',
+        name: 'shape',
+        message: [circle, triangle, square],
+    },
+    {
+        type:'input',
+        name: 'shape-color',
+        message: 'Enter a color for the shape:',
     })
